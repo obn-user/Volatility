@@ -10,7 +10,7 @@ namespace Test.Model.Tester.Spread_Volatility
     public class Spread_Volatillity_BiDirection_Param
     {
 
-        public string FileName = "MIX-9.26-12.26 [Price]60M.txt"; //имя файла
+        public string FileName = "SiU6_history.csv"; //имя файла
         public decimal InitialDeposit { get; set; } = 15000; //начальный депозит в деньгах
 
         public decimal InitialMargin { get; set; } = 11000; //начальный депозит в деньгах

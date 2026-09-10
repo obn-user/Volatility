@@ -5,7 +5,7 @@ using Test.Model.DataFormat;
 using Test.Model.Tester.Spread_Volatility;
 
 namespace Test.ViewModel
-{//7879989__11_22_33_333Ba
+{//Ветка создания базы для проверки стратегий 10_09_2026
     public class VM : BaseVM
     {
 
@@ -64,11 +64,11 @@ namespace Test.ViewModel
             {
                 return plotCommand ??= new RelayCommand(obj =>
                     {
-                        Plot();
-                        Plot1();
-                        Plot2();
-                        Plot3();
-                        Plot4();
+                       // Plot();
+                        //Plot1();
+                     //   Plot2();
+                       Plot3();
+                      //  Plot4();
                     });
             }
         }
