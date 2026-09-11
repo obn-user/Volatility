@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Model.DataFormat;
-
-namespace Test.Model.Param
+﻿namespace Test.Model.Param
 {
     public class Param
     {
-     public   Dictionary<string, string> Params = [];
+        public Dictionary<string, string> Params = [];
         public Param()
         {
-            var people = new Dictionary<string, string>()
+            var _params = new Dictionary<string, string>()
 {
     { "3", "Tom"},
     { "3", "Sam"},
     { "3", "Bob"}
 };
+            Params = _params;
         }
 
 
@@ -44,5 +38,5 @@ namespace Test.Model.Param
     }
 
 }
-    
+
 
