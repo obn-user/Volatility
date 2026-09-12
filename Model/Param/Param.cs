@@ -1,9 +1,19 @@
 ﻿namespace Test.Model.Param
 {
-    public class Param
+    public class Param // основной класс параметров пользвоателя
     {
         public Dictionary<string, string> Params = [];
-        public Param()
+        public Param() //конструктор, задающий параметры класса непосредственно из VS
+        {
+            var _params = new Dictionary<string, string>()
+{
+    { "3", "Tom"},
+    { "3", "Sam"},
+    { "3", "Bob"}
+};
+            Params = _params;
+        }
+        public Param(string filePath) //конструктор, считывающий параметры из файлы CSV
         {
             var _params = new Dictionary<string, string>()
 {
